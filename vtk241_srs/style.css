@@ -1,0 +1,23 @@
+.news-block {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.news-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.news-list li {
+    margin-bottom: 10px;
+}
+
+.news-list li img {
+    float: left;
+    margin-right: 10px;
+    max-width: 100px;
+    border-radius: 5px;
+}
