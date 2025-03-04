@@ -21,3 +21,19 @@
     max-width: 100px;
     border-radius: 5px;
 }
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.news-list li {
+    animation: fadeIn 0.5s ease-in-out;
+}
